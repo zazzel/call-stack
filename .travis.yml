@@ -1,5 +1,8 @@
 sudo: required
 language: c
+arch:
+ - amd64
+ - ppc64le
 
 env:
   - CABALVER=1.16 GHCVER=7.4.1
